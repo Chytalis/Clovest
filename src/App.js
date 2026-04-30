@@ -18,7 +18,7 @@ import Register from "./components/Register";
 function RequireAuth({ children }) {
   const { user, loading } = useAuth();
 
-  if (loading) return null; // ← tunggu, jangan redirect dulu
+  if (loading) return null; 
   if (!user) return <Navigate to="/login" replace />;
   return children;
 }
