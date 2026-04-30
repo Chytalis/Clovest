@@ -180,7 +180,7 @@ export default function Home() {
               Setiap kilogram pakaian yang Anda donasikan akan dikonversi menjadi saldo digital yang dapat memberikan nilai lebih bagi Anda, sekaligus membawa dampak positif bagi lingkungan dan masyarakat.
             </p>
             <a
-              href="#donasi"
+              href="/donasi"
               className="inline-flex items-center gap-2 bg-[#2563eb] hover:bg-[#1d4ed8] active:scale-95 text-white font-semibold text-sm px-6 py-3 rounded-lg w-fit transition-all duration-200 group"
             >
               Donasi Sekarang

@@ -4,11 +4,11 @@ import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const navLinks = [
-  { label: "Home", href: "/home" },
-  { label: "Dashboard", href: "/dashboard" },
-  { label: "Donasi", href: "/donasi" },
-  { label: "Tentang Kami", href: "/tentang" },
-  { label: "Kontak", href: "#kontak" },
+  { label: "Home", href: "#/" },
+  { label: "Dashboard", href: "#/dashboard" },
+  { label: "Donasi", href: "#/donasi" },
+  { label: "Tentang Kami", href: "#/tentang" },
+  { label: "Kontak", href: "#/kontak" },
 ];
 
 export default function Navbar() {
@@ -44,7 +44,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
 
         {/* Logo */}
-        <a href="/home" className="flex items-center gap-2 group ">
+        <a href="/" className="flex items-center gap-2 group ">
         <img
           src={logo}
           alt="Clovest Logo"
@@ -122,11 +122,11 @@ export default function Navbar() {
 
                 {dropdownOpen && (
                   <div className="absolute right-0 top-full mt-2 w-44 bg-[#0d1f3c] border border-white/10 rounded-xl shadow-2xl overflow-hidden">
-                    <a href="#profil" className="flex items-center gap-2 px-4 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-all">
+                    <a href="#/profil" className="flex items-center gap-2 px-4 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-all">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-4 h-4"><path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
                       Profil Saya
                     </a>
-                    <a href="#riwayat" className="flex items-center gap-2 px-4 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-all">
+                    <a href="#/riwayat" className="flex items-center gap-2 px-4 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-all">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-4 h-4"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                       Riwayat Donasi
                     </a>
@@ -142,13 +142,13 @@ export default function Navbar() {
           ) : (
             /* ── GUEST ── */
             <>
-              <a href="/login" className="flex items-center gap-2 px-4 py-2 text-sm font-semibold text-white rounded-lg border border-white/20 hover:border-[#00A8FF] hover:bg-white/5 transition-all duration-300 group">
+              <a href="#/login" className="flex items-center gap-2 px-4 py-2 text-sm font-semibold text-white rounded-lg border border-white/20 hover:border-[#00A8FF] hover:bg-white/5 transition-all duration-300 group">
                 Login
                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </a>
-              <a href="/register" className="relative flex items-center gap-2 px-5 py-2 text-sm font-semibold text-white rounded-lg overflow-hidden group">
+              <a href="#/register" className="relative flex items-center gap-2 px-5 py-2 text-sm font-semibold text-white rounded-lg overflow-hidden group">
                 <span className="absolute inset-0 bg-[#1652C7] group-hover:bg-[#00A8FF] transition-colors duration-300" />
                 <span className="relative flex items-center gap-2">
                   Daftar
@@ -184,8 +184,8 @@ export default function Navbar() {
             </button>
           ) : (
             <div className="flex gap-2 mt-3">
-              <a href="/login" className="flex-1 text-center py-2.5 text-sm font-semibold text-white rounded-lg border border-white/20">Login</a>
-              <a href="/register" className="flex-1 text-center py-2.5 text-sm font-semibold text-white rounded-lg bg-[#00A8FF]">Daftar</a>
+              <a href="#/login" className="flex-1 text-center py-2.5 text-sm font-semibold text-white rounded-lg border border-white/20">Login</a>
+              <a href="#/register" className="flex-1 text-center py-2.5 text-sm font-semibold text-white rounded-lg bg-[#00A8FF]">Daftar</a>
             </div>
           )}
         </div>
