@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const navLinks = [
-  { label: "Home", href: "/home" },
+  { label: "Home", href: "/" },
   { label: "Dashboard", href: "/dashboard" },
   { label: "Donasi", href: "/donasi" },
   { label: "Tentang Kami", href: "/tentang" },
