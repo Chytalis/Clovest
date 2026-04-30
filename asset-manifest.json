@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Clovest/static/css/main.9d2b982c.css",
-    "main.js": "/Clovest/static/js/main.27bbb0fe.js",
+    "main.js": "/Clovest/static/js/main.e2c722d2.js",
     "static/media/headerdonasi.png": "/Clovest/static/media/headerdonasi.4ea7f88b4253937bf48d.png",
     "static/media/herobg.png": "/Clovest/static/media/herobg.54605caaa38eec651f56.png",
     "static/media/kategoribarang.png": "/Clovest/static/media/kategoribarang.f82035447fdc200cba09.png",
@@ -19,10 +19,10 @@
     "static/media/tdkberbahaya.png": "/Clovest/static/media/tdkberbahaya.bf126b9ed9b55e0b3865.png",
     "index.html": "/Clovest/index.html",
     "main.9d2b982c.css.map": "/Clovest/static/css/main.9d2b982c.css.map",
-    "main.27bbb0fe.js.map": "/Clovest/static/js/main.27bbb0fe.js.map"
+    "main.e2c722d2.js.map": "/Clovest/static/js/main.e2c722d2.js.map"
   },
   "entrypoints": [
     "static/css/main.9d2b982c.css",
-    "static/js/main.27bbb0fe.js"
+    "static/js/main.e2c722d2.js"
   ]
 }
