@@ -25,7 +25,7 @@ Project ini masih jauh dari kata selesai dan masih dalam tahap **Pengembangan** 
 
 
 
-$\color{#F0B027}\huge{\textsf{Golden Trio}}$ <br>
+$\color{#F0B027}\huge{\textsf{golden Trio}}$ <br>
 $\color{#F24E45}{\textsf{Rahma Nur Khotima}}$<br>
 $\color{#8BF53A}{\textsf{Angger Satrio S.Z.}}$<br>
 $\color{#ED63F7}{\textsf{Bibit Aryo utomo}}$
