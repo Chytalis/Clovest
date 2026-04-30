@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Clovest/static/css/main.9d2b982c.css",
+    "main.js": "/Clovest/static/js/main.7a211d7d.js",
+    "static/media/headerdonasi.png": "/Clovest/static/media/headerdonasi.4ea7f88b4253937bf48d.png",
+    "static/media/herobg.png": "/Clovest/static/media/herobg.54605caaa38eec651f56.png",
+    "static/media/kategoribarang.png": "/Clovest/static/media/kategoribarang.f82035447fdc200cba09.png",
+    "static/media/milik.png": "/Clovest/static/media/milik.b50a9ed2ad8a59de0184.png",
+    "static/media/goal.png": "/Clovest/static/media/goal.29680abf4dc7a9ee12d0.png",
+    "static/media/about us.png": "/Clovest/static/media/about us.4a05dc492ae7eae932d1.png",
+    "static/media/bersihdanwangi.png": "/Clovest/static/media/bersihdanwangi.6aa5270b5576526316a7.png",
+    "static/media/layakpakai.png": "/Clovest/static/media/layakpakai.ef46ef0689c0cb1ac5f1.png",
+    "static/media/lengkaprapi.png": "/Clovest/static/media/lengkaprapi.e0613da73599b4b4164f.png",
+    "static/media/about us2.png": "/Clovest/static/media/about us2.3b99e76fc38b685ff89f.png",
+    "static/media/about us1.png": "/Clovest/static/media/about us1.a13840bcd027a7080858.png",
+    "static/media/home 2.png": "/Clovest/static/media/home 2.981a7468906103fb9c38.png",
+    "static/media/home 1.png": "/Clovest/static/media/home 1.682ea07e8d373f7e1741.png",
+    "static/media/home 3.png": "/Clovest/static/media/home 3.08c91d935c2bea27ebe5.png",
+    "static/media/tdkberbahaya.png": "/Clovest/static/media/tdkberbahaya.bf126b9ed9b55e0b3865.png",
+    "index.html": "/Clovest/index.html",
+    "main.9d2b982c.css.map": "/Clovest/static/css/main.9d2b982c.css.map",
+    "main.7a211d7d.js.map": "/Clovest/static/js/main.7a211d7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d2b982c.css",
+    "static/js/main.7a211d7d.js"
+  ]
+}
