@@ -21,7 +21,7 @@ function RequireAuth({ children }) {
   if (loading) return null; // ← tunggu, jangan redirect dulu
   if (!user) return <Navigate to="/login" replace />;
   return children;
-}git
+}
 
 function Layout() {
   const { user } = useAuth();
